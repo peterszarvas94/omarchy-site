@@ -402,6 +402,7 @@ export function HomePage({ data }: { data: HomeData }) {
                   >
                     DHH
                   </a>
+                  {t('by_after')}
                 </>
               )}
             </h1>
@@ -553,7 +554,7 @@ export function HomePage({ data }: { data: HomeData }) {
           <div className="mt-6 lg:mt-10 grid gap-4 md:grid-cols-2">
             <div className="@container ring-elevation flex min-w-0 flex-col bg-surface p-6">
               <div className="flex items-center gap-2.5">
-                <UsbIcon className="size-5 text-brand" />
+                <UsbIcon className="size-5 shrink-0 text-brand" />
                 <h4 className="text-lg font-medium tracking-tight text-text">
                   {t('Full-disk or dual-boot installation')}
                 </h4>
