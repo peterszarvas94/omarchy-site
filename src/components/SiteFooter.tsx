@@ -105,6 +105,7 @@ export function SiteFooter({ path }: { path: string }) {
                       <a href="https://dhh.dk" className={footerLink}>
                         DHH
                       </a>
+                      {t('by_after')}
                     </span>
                   </>
                 )}
